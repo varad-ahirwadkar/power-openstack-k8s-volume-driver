@@ -506,7 +506,7 @@ objects:
               allowPrivilegeEscalation: true
               readOnlyRootFilesystem: false
               runAsUser: 0
-            image: ${IMAGE_REPO}:${IMAGE_TAG}
+            image: ${IMAGE_REPO}
             imagePullPolicy: ${IMAGE_PROVISIONER_PULL}
             args:
               - --nodeid=$(NODE_ID)
